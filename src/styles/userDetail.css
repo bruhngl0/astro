@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "san";
+  src: url("../../public/sandeigo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.user-detail-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-details-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #b59e7d;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: san;
+  height: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  color: #b59e7d;
+  margin-bottom: 0.5rem;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 12px;
+  height: 45px;
+  border: 1px solid #584738;
+  border-radius: 5px;
+  background-color: #584738;
+  color: #b59e7d;
+}
+
+select:focus {
+  outline: none;
+  border: 2px solid #8b5e3c; /* Custom brown-ish border */
+  box-shadow: 0 0 0 2px rgba(139, 94, 60, 0.3); /* Optional glow */
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #8b5e3c; /* Custom brown-ish border */
+  box-shadow: 0 0 0 2px rgba(139, 94, 60, 0.3); /* Optional glow */
+}
+
+input::placeholder {
+  color: #b59e7d; /* Change placeholder color */
+}
+
+.user-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button.submit-btn {
+  padding: 10px;
+  background-color: #f1eada;
+  color: #584738;
+  font-size: 14px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 45px;
+  width: 60%;
+}
+
+button.submit-btn:hover {
+  background-color: #a78f66;
+}
+
+button.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.detail-logo-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #584738;
+}
+
+.detail-logo {
+  width: 10rem;
+
+  left: 50%;
+  top: 20%;
+}
+
+detail-text {
+  background-color: green;
+}
+
+.detail1-text1 {
+  font-size: 2rem;
+  color: #584738;
+  margin-top: 1rem;
+}
+
+.detail2-text2 {
+  font-size: 14px;
+  color: #584738;
+  margin-top: 1rem;
+}
+
+/* Responsive Design */
