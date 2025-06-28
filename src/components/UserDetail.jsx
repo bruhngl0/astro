@@ -79,7 +79,7 @@ const UserDetail = () => {
         <ToastContainer />
         <form onSubmit={handleSubmit} className="user-details-form">
           <div className="detail-logo-div">
-            <img src="logo31.png" className="detail-logo" />
+            <img src="aslogo.png" className="detail-logo" />
           </div>
           <div className="detail-text">
             <p className="detail1-text1">Join Waitlist.</p>
